@@ -1,0 +1,15 @@
+body {
+  background-color: #aecdd2;
+  text-align: center;
+}
+
+.recipe-grid {
+  max-width: 800px;
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-box {
+
+}
