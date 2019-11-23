@@ -1,0 +1,28 @@
+body
+{
+  color: #141f1f;
+  font-family: arial;
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/09/22/09/eggs-933722_960_720.jpg")
+  }
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ff9999;
+  position: fixed;
+  top: 0;
+}
+ li a {
+  display: block;
+  width: 60px;
+  padding: 8px 16px;
+  color: #000;
+}
+h1 {
+  font-size: 5em;
+  text-align: center;
+  padding: 50px;
+  align-content: center;
+  display: flex;
+}
