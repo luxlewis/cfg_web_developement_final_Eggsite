@@ -1,0 +1,59 @@
+body {
+  background-color: #aecdd2;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.recipe-grid {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.grid-row {
+  display: flex;
+  margin: 0 -10px;
+}
+
+.grid-column {
+  width: 50%;
+  padding: 0 10px 20px 10px;
+}
+
+.grid-content {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 50px;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  color: #F5F7F7;
+}
+
+.scrambled-egg {
+  /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url("../images/scrambled-eggs-tiny.jpg") center center; */
+  background-image: url("../images/scrambled-egg-tiny.jpg");
+}
+
+.fried-egg {
+  background-image: url("../images/fried-egg-tiny.jpg");
+}
+
+.poached-egg {
+  background-image: url("../images/poached-egg-tiny.jpg");
+}
+
+.boiled-egg {
+  background-image: url("../images/boiled-egg-tiny.jpg");
+  background-position: top;
+}
