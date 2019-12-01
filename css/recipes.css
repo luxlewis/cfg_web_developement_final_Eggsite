@@ -11,6 +11,10 @@ h2 {
   font-size: 20px;
 }
 
+p {
+  font-size: 15px;
+}
+
 .recipe-grid {
   max-width: 800px;
   margin: 0 auto;
@@ -56,4 +60,9 @@ h2 {
 .boiled-egg {
   background-image: url("../images/boiled-egg-tiny.jpg");
   background-position: top;
+}
+
+.tab-content {
+  text-align: left;
+  padding-top: 30px;
 }
