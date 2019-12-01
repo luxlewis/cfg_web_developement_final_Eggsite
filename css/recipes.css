@@ -15,6 +15,11 @@ p {
   font-size: 15px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .recipe-grid {
   max-width: 800px;
   margin: 0 auto;
@@ -60,6 +65,10 @@ p {
 .boiled-egg {
   background-image: url("../images/boiled-egg-tiny.jpg");
   background-position: top;
+}
+
+.nav {
+  padding-top: 50px;
 }
 
 .tab-content {
