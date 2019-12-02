@@ -1,10 +1,12 @@
 body {
   background-color: #aecdd2;
   text-align: center;
+  text-decoration: none;
 }
 
 h1 {
   font-size: 80px;
+  padding-top: 5rem;
 }
 
 h2 {
@@ -68,7 +70,7 @@ a {
 }
 
 .nav {
-  padding-top: 50px;
+  padding-top: 4rem;
 }
 
 .tab-content {
@@ -79,6 +81,8 @@ a {
 .nav-tabs .nav-link.active {
   background-color: #F8F8F3;
   border-bottom: none;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 
 .tab-content {
@@ -87,9 +91,9 @@ a {
   border-right: 1px;
   border-bottom: 1px;
   border-color: #dee2e6;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
 }
 
 .tab-pane {
@@ -100,8 +104,10 @@ a {
   border-bottom: none;
 }
 
-.nav-item {
+.nav-item.nav-link {
   border-bottom: none;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
 }
 
 .recipe-link {
