@@ -1,0 +1,29 @@
+body {
+  background-color: #aecdd2;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  padding-top: 5rem;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.recipe-card {
+  background-color: #F8F8F3;
+  border-radius: 0.75rem;
+  margin-top: 4rem;
+  padding: 2rem;
+}
