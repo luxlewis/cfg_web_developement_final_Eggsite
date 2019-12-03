@@ -113,3 +113,12 @@ a {
 .recipe-link {
   padding-bottom: 1rem;
 }
+
+.card {
+  border-bottom: 4px solid #aecdd2;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
