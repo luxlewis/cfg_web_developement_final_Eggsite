@@ -110,6 +110,10 @@ a {
   border-top-left-radius: 0.75rem;
 }
 
+.not-first {
+  border-top-left-radius: 0.75rem;
+}
+
 .recipe-link {
   padding-bottom: 1rem;
 }
@@ -121,4 +125,9 @@ a {
 .card-img-top {
   height: 300px;
   object-fit: cover;
+}
+
+.navbar {
+  border-bottom: 4px solid #F8F8F3;
+  background-color: #889b9e;
 }
