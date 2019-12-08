@@ -24,6 +24,20 @@ a {
 .recipe-card {
   background-color: #F8F8F3;
   border-radius: 0.75rem;
-  margin-top: 4rem;
+  margin-top: 0.7rem;
   padding: 2rem;
+}
+
+.timer-icon {
+  max-height: 2rem;
+}
+
+.comments-icon {
+  max-height: 2rem;
+}
+
+.yolk-rating {
+  height: 1.5rem;
+  max-width: 1rem;
+  display: inline-block;
 }
