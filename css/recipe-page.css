@@ -83,3 +83,7 @@ a {
 .ingredients-list {
   list-style: none;
 }
+
+.add-comment {
+  width: -webkit-fill-available;
+}
