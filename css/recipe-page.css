@@ -12,8 +12,13 @@ h2 {
   font-size: 20px;
 }
 
+h3 {
+  font-size: 16px;
+  text-decoration: bold;
+}
+
 p {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 a {
@@ -22,10 +27,16 @@ a {
 }
 
 .recipe-card {
-  background-color: #F8F8F3;
-  border-radius: 0.75rem;
+  /* background-color: #F8F8F3; */
+  /* border-radius: 0.75rem; */
+  border-top: dotted 6px #F8F8F3;
+  border-bottom: dotted 6px #F8F8F3;
   margin-top: 0.7rem;
   padding: 2rem;
+}
+
+.navbar {
+  border-top: solid 6px #636363;
 }
 
 .timer-icon {
@@ -36,8 +47,39 @@ a {
   max-height: 2rem;
 }
 
+.comments-section {
+  max-width: 800px;
+}
+
 .yolk-rating {
   height: 1.5rem;
   max-width: 1rem;
   display: inline-block;
+}
+
+.avatar-icon {
+  width: 5rem;
+}
+
+.comment-age {
+  font-weight: 400;
+  font-size: 12px;
+  color: #636363;
+}
+
+.rating-icon {
+  width: 1rem;
+  font-weight: 400;
+}
+
+.rating-icon > path:hover {
+  fill: white;
+}
+
+.rating-counter {
+  font-weight: bold;
+}
+
+.ingredients-list {
+  list-style: none;
 }
