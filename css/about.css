@@ -1,0 +1,22 @@
+body {
+  background-color: #aecdd2;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  padding-top: 5rem;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
