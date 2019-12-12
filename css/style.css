@@ -3,13 +3,13 @@ body, html
   height: 100%;
   color: #141f1f;
   font-family: arial;
-  background-color: rgb(240, 234, 221);
+  background-color: #aecdd2;
   }
 
 
 .jumbotron-fluid {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("../images/hero-image.jpg");
+  url("../images/tray-of-eggs.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
