@@ -85,6 +85,11 @@ a {
   list-style: none;
 }
 
+.add-comment {
+  width: -webkit-fill-available;
+  margin-bottom: 5rem;
+}
+=======
 .footer {
   background-color: #6c757d;
   border-top: none;
@@ -93,8 +98,4 @@ a {
 
 .socials-icon {
   height: 2rem;
-}
-
-.socials-buttons {
-  margin
 }
