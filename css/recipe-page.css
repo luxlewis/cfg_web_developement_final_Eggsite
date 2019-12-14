@@ -35,7 +35,7 @@ a {
   padding: 2rem;
 }
 
-.navbar {
+.navbar-header {
   border-top: solid 6px #636363;
 }
 
@@ -49,7 +49,7 @@ a {
 
 .comments-section {
   max-width: 800px;
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
 }
 
 .yolk-rating {
@@ -87,11 +87,11 @@ a {
 
 .add-comment {
   width: -webkit-fill-available;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
-=======
+
 .footer {
-  background-color: #6c757d;
+  /* background-color: #6c757d; */
   border-top: none;
   opacity: 0.6;
 }
