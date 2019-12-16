@@ -47,7 +47,7 @@ h2 {
 @media (min-width: 5px) {
     h2 {
       font-size: 1rem;
-    } 
+    }
   }
 
 @media (min-width: 544px) {
@@ -89,8 +89,6 @@ a {
 
 .navbar-header {
   border-top: solid 6px #636363;
-  back: #aecdd2;
-  border-bottom: none;
 }
 
 .recipe-grid {
