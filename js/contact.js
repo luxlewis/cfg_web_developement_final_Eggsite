@@ -10,7 +10,8 @@
 
 $(document).ready(function() {
   $("#submit-button").click(function() {
-    $("form").slideToggle();
     $(".thank-you").show();
+    $("form").hide();
+    $(".contact-title").hide();
   });
 });
