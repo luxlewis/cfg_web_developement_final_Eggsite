@@ -8,7 +8,6 @@ body {
   flex-direction: column;
   background-color: #aecdd2;
   text-align: center;
-  font-family: "Roboto", sans-serif;
   min-resolution: 100vh;
   position: relative;
   justify-content: space-between;
@@ -93,6 +92,5 @@ p {
 }
 
 .thank-you {
-  /* font-size: 4rem; */
   display: none;
 }
