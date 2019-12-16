@@ -36,3 +36,8 @@ p {
 .socials-icon {
   height: 2rem;
 }
+
+.contact-form {
+  margin: 0 auto;
+  max-width: 600px;
+}
