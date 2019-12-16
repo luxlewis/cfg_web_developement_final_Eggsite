@@ -1,14 +1,49 @@
 body {
   background-color: #aecdd2;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
+
 h1 {
-  font-size: 80px;
   padding-top: 5rem;
+  letter-spacing: -1px;
+  font-size: 2rem;
 }
+  /* Bootstrap 4 breakpoints */
+  */
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    h1 {
+      font-size: 2.5rem;
+    } /*1rem = 16px*/
+  }
+
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    } /*1rem = 16px*/
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 3.5rem;
+    } /*1rem = 16px*/
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    } /*1rem = 16px*/
+  }
+}
+
 h2 {
   font-size: 20px;
 }
+
 .closing-image {
   background-size: cover;
   padding-top: 20px;
@@ -18,8 +53,27 @@ h2 {
   border: 2px;
   justify-content: center;
 }
+
 p {
   padding-top: 20px;
   padding-bottom: 10px;
   align-content: center;
+}
+
+.footer {
+  border-top: none;
+  opacity: 0.6;
+}
+
+.socials-icon {
+  height: 2rem;
+}
+
+.contact-form {
+  margin: 4rem auto 3rem auto;
+  max-width: 600px;
+}
+
+.thank-you {
+  font-size: 25px;
 }
