@@ -22,6 +22,10 @@ a {
   color: black;
 }
 
+.navbar-header {
+  border-top: solid 6px #636363;
+}
+
 .recipe-grid {
   max-width: 800px;
   margin: 0 auto;
@@ -125,11 +129,6 @@ a {
 .card-img-top {
   height: 300px;
   object-fit: cover;
-}
-
-.navbar {
-  border-bottom: 4px solid #f8f8f3;
-  background-color: #889b9e;
 }
 
 .footer {
