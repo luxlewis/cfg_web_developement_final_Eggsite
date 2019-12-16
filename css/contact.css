@@ -41,3 +41,7 @@ p {
   margin: 4rem auto 3rem auto;
   max-width: 600px;
 }
+
+.thank-you {
+  font-size: 25px;
+}
