@@ -47,8 +47,8 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   font-size: 50px;
-  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
-  color: #F5F7F7;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  color: #f5f7f7;
 }
 
 .scrambled-egg {
@@ -79,14 +79,14 @@ a {
 }
 
 .nav-tabs .nav-link.active {
-  background-color: #F8F8F3;
+  background-color: #f8f8f3;
   border-bottom: none;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
 
 .tab-content {
-  background-color: #F8F8F3;
+  background-color: #f8f8f3;
   border-left: 1px;
   border-right: 1px;
   border-bottom: 1px;
@@ -128,6 +128,15 @@ a {
 }
 
 .navbar {
-  border-bottom: 4px solid #F8F8F3;
+  border-bottom: 4px solid #f8f8f3;
   background-color: #889b9e;
+}
+
+.footer {
+  border-top: none;
+  opacity: 0.6;
+}
+
+.socials-icon {
+  height: 2rem;
 }
