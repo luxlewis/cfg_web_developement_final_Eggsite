@@ -19,11 +19,6 @@ html {
   width: 100%;
 }
 
-.display-4 {
-  text-align: center;
-  color: white;
-}
-
 .lead {
   color: white;
 }
@@ -34,6 +29,11 @@ html {
   top: 50%;
   left: 50%;
   transform: translate (-50%, -50%);
+  color: white;
+}
+
+h1 {
+  font-size: 6rem;
   color: white;
 }
 
@@ -52,7 +52,7 @@ p {
   display: grid;
   height: 25%;
   max-width: 800px;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;
   grid-column-gap: 20px;
   margin: 0 auto;
 }
@@ -65,7 +65,7 @@ p {
   border: 2px;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/egg-a.jpg");
+  background-image: url("../images/white-egg.png");
   background-position: center;
 }
 
@@ -75,7 +75,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  min-height: 276px;
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
