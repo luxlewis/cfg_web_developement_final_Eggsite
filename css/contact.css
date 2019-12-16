@@ -1,0 +1,25 @@
+body {
+  background-color: #aecdd2;
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+  padding-top: 5rem;
+}
+h2 {
+  font-size: 20px;
+}
+.closing-image {
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  align-content: center;
+  border-radius: 5px;
+  border: 2px;
+  justify-content: center;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  align-content: center;
+}

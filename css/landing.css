@@ -40,8 +40,9 @@ p {
 .intro {
   background-color: white;
 }
-.nav-grid {
+#nav-grid {
   align-self: center;
+  justify-content: center;
   display: grid;
   height: 25%;
   max-width: 800px;
@@ -60,6 +61,39 @@ p {
   background-size: cover;
   background-image: url("../images/egg-a.jpg");
   background-position: center;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #5d6a70;
+}
+
+.grid-content-egg:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
 }
 
 .footer {
