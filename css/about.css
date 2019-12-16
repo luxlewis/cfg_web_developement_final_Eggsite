@@ -1,4 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: #aecdd2;
   text-align: center;
 }
@@ -22,7 +29,7 @@ a {
 }
 
 .about-images {
-  border-width: 10px;
+  border-width: 4px;
   border-style: solid;
   border-color: #f8f8f3;
 }
@@ -38,8 +45,17 @@ a {
 .footer {
   border-top: none;
   opacity: 0.6;
+  margin-top: auto;
 }
 
 .socials-icon {
   height: 2rem;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.about-me-text {
+  /* max-width: 300px; */
 }
