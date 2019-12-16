@@ -27,8 +27,6 @@ a {
 }
 
 .recipe-card {
-  /* background-color: #F8F8F3; */
-  /* border-radius: 0.75rem; */
   border-top: dotted 6px #f8f8f3;
   border-bottom: dotted 6px #f8f8f3;
   margin-top: 0.7rem;
