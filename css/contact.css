@@ -94,3 +94,8 @@ p {
 .thank-you {
   display: none;
 }
+
+.thank-you-egg {
+  margin: 5rem auto;
+  height: 11rem;
+}
