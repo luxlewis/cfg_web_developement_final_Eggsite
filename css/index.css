@@ -40,12 +40,15 @@ h1 {
 h2 {
   text-align: center;
 }
+
 p {
   text-align: center;
 }
+
 .intro {
   background-color: white;
 }
+
 #nav-grid {
   align-self: center;
   justify-content: center;
@@ -80,6 +83,12 @@ p {
   opacity: 0;
   transition: 0.5s ease;
   background-color: #5d6a70;
+}
+
+@media (max-width: 544px) {
+  .overlay {
+    min-height: 175px;
+  }
 }
 
 .grid-content-egg:hover .overlay {
